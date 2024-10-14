@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the SignalementPage class from the package_signalement library, for the Dart programming language.">
+  <title>SignalementPage class - package_signalement library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../" data-using-base-href="false" class="light-theme">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">package_signalement</a></li>
+    <li><a href="../package_signalement/package_signalement-library.html">package_signalement</a></li>
+    <li class="self-crumb">SignalementPage<span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span> class</li>
+  </ol>
+  <div class="self-name">SignalementPage</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+  <div class="toggle" id="theme-button">
+    <label for="theme">
+      <input type="checkbox" id="theme" value="light-theme">
+      <span class="material-symbols-outlined">
+        brightness_4
+      </span>
+    </label>
+  </div>
+</header>
+<main>
+
+  <div id="dartdoc-main-content" class="main-content">
+      <div>
+<h1><span class="kind-class">SignalementPage&lt;<wbr><span class="type-parameter">T</span>&gt;</span> class 
+    <a href="https://dart.dev/null-safety" class="feature feature-null-safety" title="Supports the null safety language feature.">Null safety</a>
+ 
+    <span class="category widget cp-1 linked" title="This is part of the Widget Topic."><a href="../topics/Widget-topic.html">Widget</a></span>
+    <span class="category page cp-2 linked" title="This is part of the Page Topic."><a href="../topics/Page-topic.html">Page</a></span>
+</h1></div>
+
+    
+<section class="desc markdown">
+  <p>Page formulaire de signalement à customiser avec vos propres champs (<a href="../package_signalement/FieldModel-class.html">FieldModel</a>)</p>
+</section>
+
+
+    <section>
+      <dl class="dl-horizontal">
+        
+  <dt>Inheritance</dt>
+  <dd>
+    <ul class="gt-separated dark clazz-relationships">
+      <li><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></li>
+        <li><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree-class.html">DiagnosticableTree</a></li>
+        <li><a href="https://api.flutter.dev/flutter/widgets/Widget-class.html">Widget</a></li>
+        <li><a href="https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html">StatefulWidget</a></li>
+      <li>SignalementPage</li>
+    </ul>
+  </dd>
+
+        
+        
+
+
+
+        
+      </dl>
+    </section>
+
+    
+  <section class="summary offset-anchor" id="constructors">
+    <h2>Constructors</h2>
+
+    <dl class="constructor-summary-list">
+        <dt id="SignalementPage" class="callable">
+          <span class="name"><a href="../package_signalement/SignalementPage/SignalementPage.html">SignalementPage</a></span><span class="signature">(<span class="parameter" id="-param-key">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/Key-class.html">Key</a>?</span> <span class="parameter-name">key</span>, </span><span class="parameter" id="-param-onPop"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-ui/VoidCallback.html">VoidCallback</a>?</span> <span class="parameter-name">onPop</span>, </span><span class="parameter" id="-param-signalementTheme"><span class="type-annotation"><a href="../package_signalement/SignalementThemeData-class.html">SignalementThemeData</a>?</span> <span class="parameter-name">signalementTheme</span>, </span><span class="parameter" id="-param-signalementThemeName"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">signalementThemeName</span>, </span><span class="parameter" id="-param-title"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">title</span>, </span><span class="parameter" id="-param-subtitle"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">subtitle</span>, </span><span class="parameter" id="-param-footer"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">footer</span>, </span><span class="parameter" id="-param-validateText"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">validateText</span>, </span><span class="parameter" id="-param-showDescriptionReport"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">showDescriptionReport</span> = <span class="default-value">true</span>, </span><span class="parameter" id="-param-showFileReport"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">showFileReport</span> = <span class="default-value">true</span>, </span><span class="parameter" id="-param-fileFieldname"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">fileFieldname</span>, </span><span class="parameter" id="-param-descriptionFieldname"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">descriptionFieldname</span>, </span><span class="parameter" id="-param-descriptionHint"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">descriptionHint</span>, </span><span class="parameter" id="-param-fieldItem"><span>required</span> <span class="type-annotation"><a href="../package_signalement/FieldModel-class.html">FieldModel</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span> <span class="parameter-name">fieldItem</span>, </span><span class="parameter" id="-param-validator"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-async/FutureOr-class.html">FutureOr</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span> <span class="parameter-name">validator</span>(<span class="parameter" id="param-listSelectForms"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://pub.dev/documentation/dartz/0.10.1/dartz/Tuple2-class.html">Tuple2</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>, <span class="type-parameter"><a href="../package_signalement/ItemModel-class.html">ItemModel</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span>&gt;</span></span>&gt;</span></span> <span class="parameter-name">listSelectForms</span>, </span><span class="parameter" id="param-description"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">description</span>, </span><span class="parameter" id="param-file"><span class="type-annotation"><a href="https://pub.dev/documentation/file_picker/4.6.1/file_picker/PlatformFile-class.html">PlatformFile</a>?</span> <span class="parameter-name">file</span></span>), </span><span class="parameter" id="-param-showSuccessPage"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">showSuccessPage</span> = <span class="default-value">true</span>, </span><span class="parameter" id="-param-successPageBuilder"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/Widget-class.html">Widget</a></span> <span class="parameter-name">successPageBuilder</span>(<span class="parameter" id="param-"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span></span>)?}</span>)</span>
+        </dt>
+        <dd>
+          
+            <div class="constructor-modifier features">const</div>
+        </dd>
+    </dl>
+  </section>
+
+    <section class="summary offset-anchor" id="instance-properties">
+      <h2>Properties</h2>
+
+      <dl class="properties">
+        <dt id="descriptionFieldname" class="property">
+  <span class="name"><a href="../package_signalement/SignalementPage/descriptionFieldname.html">descriptionFieldname</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="descriptionHint" class="property">
+  <span class="name"><a href="../package_signalement/SignalementPage/descriptionHint.html">descriptionHint</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="fieldItem" class="property">
+  <span class="name"><a href="../package_signalement/SignalementPage/fieldItem.html">fieldItem</a></span>
+  <span class="signature">&#8594; <a href="../package_signalement/FieldModel-class.html">FieldModel</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span> 
+
+</dt>
+<dd>
+  Model du champ de selection à choix multiples
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="fileFieldname" class="property">
+  <span class="name"><a href="../package_signalement/SignalementPage/fileFieldname.html">fileFieldname</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="footer" class="property">
+  <span class="name"><a href="../package_signalement/SignalementPage/footer.html">footer</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Text de fin de page
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="hashCode" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/widgets/Widget/hashCode.html">hashCode</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> 
+
+</dt>
+<dd class="inherited">
+  The hash code for this object.
+  <div class="features"><span class="">@<a href="https://pub.dev/documentation/meta/1.8.0/meta/nonVirtual-constant.html">nonVirtual</a></span><span class="feature">read-only</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="key" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/widgets/Widget/key.html">key</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/foundation/Key-class.html">Key</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Controls how one widget replaces another widget in the tree.
+  <div class="features"><span class="feature">final</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="onPop" class="property">
+  <span class="name"><a href="../package_signalement/SignalementPage/onPop.html">onPop</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-ui/VoidCallback.html">VoidCallback</a>?</span> 
+
+</dt>
+<dd>
+  Fonction lorsque le bouton de retour est appuyé
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="runtimeType" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Type-class.html">Type</a></span> 
+
+</dt>
+<dd class="inherited">
+  A representation of the runtime type of the object.
+  <div class="features"><span class="feature">read-only</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="showDescriptionReport" class="property">
+  <span class="name"><a href="../package_signalement/SignalementPage/showDescriptionReport.html">showDescriptionReport</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> 
+
+</dt>
+<dd>
+  Champ de description du signalement ou non
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="showFileReport" class="property">
+  <span class="name"><a href="../package_signalement/SignalementPage/showFileReport.html">showFileReport</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> 
+
+</dt>
+<dd>
+  Champ d'import de fichier d'appuis du signalement ou non
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="showSuccessPage" class="property">
+  <span class="name"><a href="../package_signalement/SignalementPage/showSuccessPage.html">showSuccessPage</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> 
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="signalementTheme" class="property">
+  <span class="name"><a href="../package_signalement/SignalementPage/signalementTheme.html">signalementTheme</a></span>
+  <span class="signature">&#8594; <a href="../package_signalement/SignalementThemeData-class.html">SignalementThemeData</a>?</span> 
+
+</dt>
+<dd>
+  ThemeData
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="signalementThemeName" class="property">
+  <span class="name"><a href="../package_signalement/SignalementPage/signalementThemeName.html">signalementThemeName</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  ThemeName
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="subtitle" class="property">
+  <span class="name"><a href="../package_signalement/SignalementPage/subtitle.html">subtitle</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Sous-Titre de la page
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="successPageBuilder" class="property">
+  <span class="name"><a href="../package_signalement/SignalementPage/successPageBuilder.html">successPageBuilder</a></span>
+  <span class="signature">&#8594; (<a href="https://api.flutter.dev/flutter/widgets/Widget-class.html">Widget</a> Function<span class="signature">(<span class="parameter" id="param-"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span></span>)</span>?)</span> 
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="title" class="property">
+  <span class="name"><a href="../package_signalement/SignalementPage/title.html">title</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Titre de la page
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="validateText" class="property">
+  <span class="name"><a href="../package_signalement/SignalementPage/validateText.html">validateText</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Text du bouto de validation
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="validator" class="property">
+  <span class="name"><a href="../package_signalement/SignalementPage/validator.html">validator</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/FutureOr-class.html">FutureOr</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span> Function<span class="signature">(<span class="parameter" id="param-listSelectForms"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://pub.dev/documentation/dartz/0.10.1/dartz/Tuple2-class.html">Tuple2</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>, <span class="type-parameter"><a href="../package_signalement/ItemModel-class.html">ItemModel</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span>&gt;</span></span>&gt;</span></span> <span class="parameter-name">listSelectForms</span>, </span><span class="parameter" id="param-description"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">description</span>, </span><span class="parameter" id="param-file"><span class="type-annotation"><a href="https://pub.dev/documentation/file_picker/4.6.1/file_picker/PlatformFile-class.html">PlatformFile</a>?</span> <span class="parameter-name">file</span></span>)</span></span> 
+
+</dt>
+<dd>
+  Fonction de validation du remplissage de formulaire
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+      </dl>
+    </section>
+
+    
+  <section
+      class="summary offset-anchor"
+      id="instance-methods">
+    <h2>Methods</h2>
+    <dl class="callables">
+        <dt id="createElement" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/widgets/StatefulWidget/createElement.html">createElement</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/widgets/StatefulElement-class.html">StatefulElement</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Creates a <a href="https://api.flutter.dev/flutter/widgets/StatefulElement-class.html">StatefulElement</a> to manage this widget's location in the tree.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="createState" class="callable">
+  <span class="name"><a href="../package_signalement/SignalementPage/createState.html">createState</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/widgets/State-class.html">State</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../package_signalement/SignalementPage-class.html">SignalementPage</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Creates the mutable state for this widget at a given location in the tree.
+  <div class="features"><span class="feature">override</span></div>
+
+</dd>
+
+        <dt id="debugDescribeChildren" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/debugDescribeChildren.html">debugDescribeChildren</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticsNode-class.html">DiagnosticsNode</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns a list of <code>DiagnosticsNode</code> objects describing this node's
+children.
+  <div class="features"><span class="">@<a href="https://pub.dev/documentation/meta/1.8.0/meta/protected-constant.html">protected</a></span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="debugFillProperties" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/widgets/Widget/debugFillProperties.html">debugFillProperties</a></span><span class="signature">(<wbr><span class="parameter" id="debugFillProperties-param-properties"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticPropertiesBuilder-class.html">DiagnosticPropertiesBuilder</a></span> <span class="parameter-name">properties</span></span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Add additional properties associated with the node.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="noSuchMethod" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Invocation-class.html">Invocation</a></span> <span class="parameter-name">invocation</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Invoked when a non-existent method or property is accessed.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toDiagnosticsNode" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toDiagnosticsNode.html">toDiagnosticsNode</a></span><span class="signature">(<wbr><span class="parameter" id="toDiagnosticsNode-param-name">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">name</span>, </span><span class="parameter" id="toDiagnosticsNode-param-style"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticsTreeStyle.html">DiagnosticsTreeStyle</a>?</span> <span class="parameter-name">style</span>}</span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/foundation/DiagnosticsNode-class.html">DiagnosticsNode</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns a debug representation of the object that is used by debugging
+tools and by <a href="https://api.flutter.dev/flutter/foundation/DiagnosticsNode/toStringDeep.html">DiagnosticsNode.toStringDeep</a>.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toString" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/foundation/Diagnosticable/toString.html">toString</a></span><span class="signature">(<wbr><span class="parameter" id="toString-param-minLevel">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticLevel.html">DiagnosticLevel</a></span> <span class="parameter-name">minLevel</span> = <span class="default-value">DiagnosticLevel.info</span>}</span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  A string representation of this object.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toStringDeep" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringDeep.html">toStringDeep</a></span><span class="signature">(<wbr><span class="parameter" id="toStringDeep-param-prefixLineOne">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">prefixLineOne</span> = <span class="default-value">&#39;&#39;</span>, </span><span class="parameter" id="toStringDeep-param-prefixOtherLines"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">prefixOtherLines</span>, </span><span class="parameter" id="toStringDeep-param-minLevel"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticLevel.html">DiagnosticLevel</a></span> <span class="parameter-name">minLevel</span> = <span class="default-value">DiagnosticLevel.debug</span>}</span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns a string representation of this node and its descendants.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toStringShallow" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringShallow.html">toStringShallow</a></span><span class="signature">(<wbr><span class="parameter" id="toStringShallow-param-joiner">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">joiner</span> = <span class="default-value">&#39;, &#39;</span>, </span><span class="parameter" id="toStringShallow-param-minLevel"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticLevel.html">DiagnosticLevel</a></span> <span class="parameter-name">minLevel</span> = <span class="default-value">DiagnosticLevel.debug</span>}</span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns a one-line detailed description of the object.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toStringShort" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/widgets/Widget/toStringShort.html">toStringShort</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  A short, textual description of this widget.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+    </dl>
+  </section>
+    
+  <section
+      class="summary offset-anchor inherited"
+      id="operators">
+    <h2>Operators</h2>
+    <dl class="callables">
+        <dt id="operator ==" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/widgets/Widget/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  The equality operator.
+  <div class="features"><span class="">@<a href="https://pub.dev/documentation/meta/1.8.0/meta/nonVirtual-constant.html">nonVirtual</a></span><span class="feature">inherited</span></div>
+
+</dd>
+
+    </dl>
+  </section>
+    
+    
+    
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+  <li><a href="../index.html">package_signalement</a></li>
+  <li><a href="../package_signalement/package_signalement-library.html">package_signalement</a></li>
+  <li class="self-crumb">SignalementPage<span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span> class</li>
+</ol>
+
+
+    <h5>package_signalement library</h5>
+    <ol>
+      <li class="section-title"><a href="../package_signalement/package_signalement-library.html#classes">Classes</a></li>
+        <li><a href="../package_signalement/FieldModel-class.html">FieldModel</a></li>
+        <li><a href="../package_signalement/ItemModel-class.html">ItemModel</a></li>
+        <li><a href="../package_signalement/SignalementPage-class.html">SignalementPage</a></li>
+        <li><a href="../package_signalement/SignalementThemeData-class.html">SignalementThemeData</a></li>
+        <li><a href="../package_signalement/SubmitedPage-class.html">SubmitedPage</a></li>
+
+
+
+
+
+
+
+
+</ol>
+
+  </div>
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+    <ol>
+
+        <li class="section-title"><a href="../package_signalement/SignalementPage-class.html#constructors">Constructors</a></li>
+          <li><a href="../package_signalement/SignalementPage/SignalementPage.html">SignalementPage</a></li>
+
+
+        <li class="section-title">
+          <a href="../package_signalement/SignalementPage-class.html#instance-properties">Properties</a>
+        </li>
+          <li><a href="../package_signalement/SignalementPage/descriptionFieldname.html">descriptionFieldname</a></li>
+          <li><a href="../package_signalement/SignalementPage/descriptionHint.html">descriptionHint</a></li>
+          <li><a href="../package_signalement/SignalementPage/fieldItem.html">fieldItem</a></li>
+          <li><a href="../package_signalement/SignalementPage/fileFieldname.html">fileFieldname</a></li>
+          <li><a href="../package_signalement/SignalementPage/footer.html">footer</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/widgets/Widget/hashCode.html">hashCode</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/widgets/Widget/key.html">key</a></li>
+          <li><a href="../package_signalement/SignalementPage/onPop.html">onPop</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></li>
+          <li><a href="../package_signalement/SignalementPage/showDescriptionReport.html">showDescriptionReport</a></li>
+          <li><a href="../package_signalement/SignalementPage/showFileReport.html">showFileReport</a></li>
+          <li><a href="../package_signalement/SignalementPage/showSuccessPage.html">showSuccessPage</a></li>
+          <li><a href="../package_signalement/SignalementPage/signalementTheme.html">signalementTheme</a></li>
+          <li><a href="../package_signalement/SignalementPage/signalementThemeName.html">signalementThemeName</a></li>
+          <li><a href="../package_signalement/SignalementPage/subtitle.html">subtitle</a></li>
+          <li><a href="../package_signalement/SignalementPage/successPageBuilder.html">successPageBuilder</a></li>
+          <li><a href="../package_signalement/SignalementPage/title.html">title</a></li>
+          <li><a href="../package_signalement/SignalementPage/validateText.html">validateText</a></li>
+          <li><a href="../package_signalement/SignalementPage/validator.html">validator</a></li>
+
+        <li class="section-title"><a href="../package_signalement/SignalementPage-class.html#instance-methods">Methods</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/widgets/StatefulWidget/createElement.html">createElement</a></li>
+          <li><a href="../package_signalement/SignalementPage/createState.html">createState</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/debugDescribeChildren.html">debugDescribeChildren</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/widgets/Widget/debugFillProperties.html">debugFillProperties</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toDiagnosticsNode.html">toDiagnosticsNode</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/foundation/Diagnosticable/toString.html">toString</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringDeep.html">toStringDeep</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringShallow.html">toStringShallow</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/widgets/Widget/toStringShort.html">toStringShort</a></li>
+
+        <li class="section-title inherited"><a href="../package_signalement/SignalementPage-class.html#operators">Operators</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/widgets/Widget/operator_equals.html">operator ==</a></li>
+
+
+
+
+</ol>
+
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    package_signalement
+      0.0.1
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/docs.dart.js"></script>
+
+
+
+</body>
+
+</html>
+

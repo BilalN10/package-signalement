@@ -1,0 +1,33 @@
+name: package_signalement
+description: A new Flutter package project.
+version: 0.0.1
+homepage: none
+publish_to: none
+environment:
+  sdk: '>=2.17.6 <3.0.0'
+  flutter: '>=1.17.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.5.3+2
+  core_kosmos:
+    git:
+      publish_to: none
+      url: YOUR_URL
+      ref: main
+  ui_kosmos_v4:
+    git:
+      publish_to: none
+      url: YOUR_URL
+      ref: main
+  file_picker: ^4.6.1
+  app_settings: ^4.1.8
+  dartz: ^0.10.1
+  easy_localization: ^3.0.1
+  image_picker: ^0.8.6
+  flutter_svg: ^1.1.6
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter: null
